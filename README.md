@@ -16,7 +16,7 @@ This project focuses on developing a menu scheduling application that allows man
 
 ![Weekly Menu Scheduler](./assets/meal_planner.jpg)
 
-In this voyage, your team will design and build an intuitive web application to simplify menu planning and ensure inclusivity for all employees, leveraging JSON-based datasets for dishes and allergy details.
+In this voyage, your team will design and build an intuitive web application to simplify menu planning and ensure inclusivity for all employees, leveraging dishes API.
 
 ## General Instructions
 
