@@ -118,15 +118,18 @@ implement to enhance this app, if time permits.
 
   - [ ] Present the finalized weekly menu in an intuitive and readable format, such as (table view, calendar-like grid) suprise us :).
   - [ ] Ensure the application is fully responsive and adapts to various devices and screen sizes.
-        
-### Extras (Not Required)
 
 - Data Export
 
   - [ ] Add functionality for managers to download or export the finalized weekly menu as a PDF or Excel file.
         
+### Extras (Not Required)
+
+  - [ ] Users can edit and delete an allergy
 
 ## Acceptance Criteria
+
+  - [ ] Users can create workers' allergies
 
   - [ ] Users can successfully create a valid weekly menu with:
     - Unique dishes.
