@@ -125,7 +125,7 @@ implement to enhance this app, if time permits.
         
 ### Extras (Not Required)
 
-  - [ ] Users can edit and delete an allergy
+  - [ ] Enable users to edit and delete an allergy
 
 ## Acceptance Criteria
 
