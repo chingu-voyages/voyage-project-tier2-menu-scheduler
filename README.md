@@ -1,4 +1,4 @@
-# voyage-project-tier1-menu-scheduler
+# voyage-project-tier2-menu-scheduler
 
 ## Table of Contents
 
@@ -47,8 +47,7 @@ implement to enhance this app, if time permits.
 - [ ] You may **_NOT_** use AI-based solution generators like GitHub Copilot.
 - [ ] Useful links and resources:
   - [Print React Component](https://www.npmjs.com/package/react-to-print)
-  - [Dishes Data](./assets/dishes.json)
-  - [Allergies Data](./assets/allergies.json)
+  - [Dishes API](https://menus-api.vercel.app/dishes)
 
 #### Styling
 
@@ -62,6 +61,12 @@ implement to enhance this app, if time permits.
 
   - [ ] Develop a responsive single-page application (SPA) to facilitate weekly menu scheduling.
   - [ ] Ensure the application is user-friendly, accessible, and visually appealing.
+
+- Allergy Input and Management
+
+  - [ ] Enable managers to input workers' allergies directly within the app using a user-friendly form or interface.
+  - [ ] Allow multiple allergy inputs, with the option to save and manage them for future menu planning.
+  - [ ] Automatically filter out dishes containing allergens based on workers' allergy data items.
   
 - Week Scheduling
 
@@ -73,18 +78,30 @@ implement to enhance this app, if time permits.
   - [ ] Define the weekly menu structure as a 7-day period starting on Monday and ending on Sunday.
 
 - Dish Management
+
   - [ ] Dish Assignment
+
     - Enable managers to assign dishes for each day of the week by:
-      - [ ] Automatically generating a menu with one unique dish for each day using the provided [dishes dataset](./assets/dishes.json).
+
+      - [ ] Automatically generating a menu with one unique dish for each day using [dishes API](https://menus-api.vercel.app/dishes).
+      - [ ] Write a logic to randomly select and assign unique dish for each day of the week.
+      - [ ] Implement a regenerate weekly menu feature.
+
+    - "Day Off" Feature
+
+      - [ ] Enable marking specific weekdays as "Day Off", where no dish is assigned.
   
   - [ ] Data Requirements
-    - Source dishes from the provided [JSON file](./assets/dishes.json) containing the following details:
+
+    - Source dishes from the [dishes API](https://menus-api.vercel.app/dishes) containing the following details:
+
       - Dish Name: Unique identifier for each dish.
       - Ingredients: List of ingredients used.
       - Calories: Nutritional value of the dish.
 
   - [ ] Allergen Restrictions
-    - Cross-reference the workers' [allergies JSON file](./assets/allergies.json) to prevent scheduling dishes containing allergens.
+
+    - Cross-reference the stored workers' allergies data to prevent scheduling dishes containing allergens.
 
 - Validation and Error Handling
 
@@ -93,23 +110,26 @@ implement to enhance this app, if time permits.
   - [ ] Prohibit duplicate dish assignments for the same week
   - [ ] Provide clear error messages when duplicates are detected.
 
+- Data Persistence
+
+  - [ ] Implement local storage to save allergies data in the browser
+
 - User Interface and Experience (UI/UX)
 
-  - [ ] Present the finalized weekly menu in an intuitive and readable format, such as (table view, calendar-like grid) surpise us :).
+  - [ ] Present the finalized weekly menu in an intuitive and readable format, such as (table view, calendar-like grid) suprise us :).
   - [ ] Ensure the application is fully responsive and adapts to various devices and screen sizes.
-        
-### Extras (Not Required)
- 
-- "Day Off" Feature
-
-  - [ ] Enable marking specific weekdays as "Day Off," where no dish is assigned.
 
 - Data Export
 
   - [ ] Add functionality for managers to download or export the finalized weekly menu as a PDF or Excel file.
         
+### Extras (Not Required)
+
+  - [ ] Users can edit and delete an allergy
 
 ## Acceptance Criteria
+
+  - [ ] Users can create workers' allergies
 
   - [ ] Users can successfully create a valid weekly menu with:
     - Unique dishes.
