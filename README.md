@@ -81,9 +81,9 @@ implement to enhance this app, if time permits.
 
   - [ ] Dish Assignment
 
-    - Enable managers to assign dishes for each day of the week by:
+    - Enable managers to assign dishes for each day of the week
 
-      - [ ] Automatically generating a menu with one unique dish for each day using [dishes API](https://menus-api.vercel.app/dishes).
+      - [ ] Automatically generate a menu with one unique dish for each day using [dishes API](https://menus-api.vercel.app/dishes).
       - [ ] Write a logic to randomly select and assign unique dish for each day of the week.
       - [ ] Implement a regenerate weekly menu feature.
 
