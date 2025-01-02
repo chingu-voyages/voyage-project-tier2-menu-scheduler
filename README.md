@@ -66,7 +66,7 @@ implement to enhance this app, if time permits.
 
   - [ ] Enable managers to input workers' allergies directly within the app using a user-friendly form or interface.
   - [ ] Allow multiple allergy inputs, with the option to save and manage them for future menu planning.
-  - [ ] Automatically filter out dishes containing allergens based on workers' allergy data.items.
+  - [ ] Automatically filter out dishes containing allergens based on workers' allergy data items.
   
 - Week Scheduling
 
@@ -85,11 +85,11 @@ implement to enhance this app, if time permits.
 
       - [ ] Automatically generating a menu with one unique dish for each day using [dishes API](https://menus-api.vercel.app/dishes).
       - [ ] Write a logic to randomly select and assign unique dish for each day of the week.
-      - [ ] Implement a regenerate feature for the weekly dish.
+      - [ ] Implement a regenerate weekly menu feature.
 
     - "Day Off" Feature
 
-      - [ ] Enable marking specific weekdays as "Day Off," where no dish is assigned.
+      - [ ] Enable marking specific weekdays as "Day Off", where no dish is assigned.
   
   - [ ] Data Requirements
 
@@ -101,7 +101,7 @@ implement to enhance this app, if time permits.
 
   - [ ] Allergen Restrictions
 
-    - Cross-reference stored the workers' allergies data to prevent scheduling dishes containing allergens.
+    - Cross-reference the stored workers' allergies data to prevent scheduling dishes containing allergens.
 
 - Validation and Error Handling
 
